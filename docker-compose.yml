@@ -10,8 +10,8 @@ services:
     environment:
       TELEGRAM_STAT: "true"
       TELEGRAM_LOCAL: "true"
-      TELEGRAM_API_ID: "123"
-      TELEGRAM_API_HASH: "hash"
+      TELEGRAM_API_ID: "24698381"
+      TELEGRAM_API_HASH: "05cfb4e7d3429376b20a4742c6786642"
     volumes:
       - ./telegram-bot-api_data:/var/lib/telegram-bot-api
     ports:
